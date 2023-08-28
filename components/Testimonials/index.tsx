@@ -6,6 +6,7 @@ const testimonialData: Testimonial[] = [
   {
     id: 1,
     name: "Alex",
+    designation:"",
     content:
       "AiProf made learning engaging and efficient for me. Personalized courses and instant assignment feedback boosted my confidence in subjects.",
     image: "/images/testimonials/auth-01.png",
@@ -14,6 +15,7 @@ const testimonialData: Testimonial[] = [
   {
     id: 2,
     name: "James",
+    designation: "",
     content:
       "AiProf's flexibility suits my busy schedule. Personalized courses and 24/7 assignment feedback feel like a personal tutor.",
     image: "/images/testimonials/auth-02.png",
@@ -22,6 +24,7 @@ const testimonialData: Testimonial[] = [
   {
     id: 3,
     name: "Jane",
+    designation: "",
     content:
       "AiProf's diverse subjects and adaptive AI improved my understanding. Expert educators combined with AI guidance create a holistic learning journey.",
     image: "/images/testimonials/auth-03.png",

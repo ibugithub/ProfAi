@@ -31,15 +31,15 @@ const AboutSectionTwo = () => {
                   Nurturing Future Leaders with AiPro
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  At AiProf, we understand that a child's education is a cornerstone for their future success. As parents, your role in supporting their learning journey is invaluable. Discover how AiProf can be your partner in shaping the leaders of tomorrow through personalized education, insightful progress tracking, and a collaborative approach to learning.
+                  At AiProf, we understand that a child&apos;s education is a cornerstone for their future success. As parents, your role in supporting their learning journey is invaluable. Discover how AiProf can be your partner in shaping the leaders of tomorrow through personalized education, insightful progress tracking, and a collaborative approach to learning.
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Elevate Your Child's Learning Experience
+                  Elevate Your Child&apos;s Learning Experience
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  With AiProf, you can ensure that your child receives an education that adapts to their unique strengths, fosters critical thinking, and prepares them for a rapidly changing world. Join us in empowering your child's journey towards academic excellence and personal growth.
+                  With AiProf, you can ensure that your child receives an education that adapts to their unique strengths, fosters critical thinking, and prepares them for a rapidly changing world. Join us in empowering your child&apos;s journey towards academic excellence and personal growth.
                 </p>
               </div>
             </div>
