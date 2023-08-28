@@ -2,9 +2,9 @@
 
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import { Providers } from "./providers";
 import "../styles/index.css";
 import "node_modules/react-modal-video/css/modal-video.css";
+import ScrollToTop from "@/components/ScrollToTop";
 
 
 export default function RootLayout({
@@ -20,8 +20,10 @@ export default function RootLayout({
           <Header />
           {children}
           <Footer />
+          <ScrollToTop />
         </Providers>
       </body>
     </html>
   )
 }
+import { Providers } from "./providers";

@@ -7,10 +7,12 @@ import AboutSectionTwo from '@/components/About/AboutSectionTwo'
 import Testimonials from '@/components/Testimonials'
 import Blog from '@/components/Blog'
 import Contact from '@/components/Contact'
+import ScrollUp from "@/components/Common/ScrollUp";
 
 export default function Home() {
   return (
     <>
+      <ScrollUp />
       <Hero />
       <Features />
       <Video />
