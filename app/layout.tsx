@@ -1,7 +1,13 @@
-import './globals.css'
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+"use client"
 
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import { Providers } from "./providers";
+import "../styles/index.css";
+import type { Metadata } from 'next'
+import "node_modules/react-modal-video/css/modal-video.css";
+
+import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -16,7 +22,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className="dark:bg-black">
+        <Providers>
+          <Header />
+          {children}
+          <Footer />
+        </Providers>
+      </body>
     </html>
   )
 }
